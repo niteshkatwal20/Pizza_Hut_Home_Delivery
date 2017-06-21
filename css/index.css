@@ -1,0 +1,58 @@
+
+.logo {
+
+	height: 100px;
+	width: 25%;
+	background: grey;
+	float: left;
+}
+
+.title {
+	
+	text-align: center;
+	height: 100px;
+	width: 50%;
+	background: grey;
+	float: left;
+	
+}
+
+
+.activity {
+	
+	height: 100px;
+	width: 25%;
+	background:grey;
+	float: left;
+	text-align: right;
+	
+}
+
+.logo img {
+	width :50%;
+	height : 100%;
+	max-height : 50%;
+	max-width : 100%;
+}
+
+.lucy {
+	font-size: 4vw;
+	font-family: "Arial Script ITC" , Aharoni , Brush Script Std;
+}
+
+.activity a {
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}
+p{
+	font-family:Arial Script ITC ;
+	font-size:1.5vw;
+	height:75px;
+}
+body {
+	font-family: verdana;
+	paddin: 50px;
+	background: grey;
+	
+}

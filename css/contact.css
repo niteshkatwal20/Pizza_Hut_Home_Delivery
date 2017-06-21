@@ -1,0 +1,162 @@
+
+
+
+
+
+
+.logo {
+	/*background: url("dog.png");*/
+	/*outline: solid red 1px;*/
+	height: 100px;
+	width: 25%;
+	background: grey;
+	float: left;
+}
+
+.title {
+	/*outline: solid red 1px;*/
+	text-align: center;
+	height: 100px;
+	width: 50%;
+	background: grey;
+	float: left;
+	
+}
+
+
+.activity {
+	/*outline: solid red 1px;*/
+	height: 100px;
+	width: 25%;
+	background:grey;
+	float: left;
+	text-align: right;
+	
+}
+
+.logo img {
+	width : auto;
+	height : auto;
+	max-height : 100%;
+	max-width : 100%;
+}
+
+.lucy {
+	font-size: 4vw;
+	font-family: Arial, Aharoni , Brush Script Std;
+}
+
+.activity a {
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}
+p{
+	font-family:Arial Script ITC ;
+	font-size:1.5vw;
+	height:75px;
+}
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+ul#navmenu a:hover {
+	background:green;
+}
+
+body {
+	font-family: verdana;
+	paddin: 50px;
+	background: url("../image/desk.jpg");
+	
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+}
+
+ul#navmenu a {
+	text-decoration: none;
+	display: block;
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	color:white;
+	
+}
+
+.header {
+	background: red;
+	height: 100px;
+	clear: both;
+	color: white;
+	margin: 5px;
+}
+.nav {
+	background:black;
+	height: 30px;
+	clear: right;
+	margin: 1px;
+	padding:2px;
+	border:1px solid white;
+	
+}
+.link {
+	background: white;
+	clear: left;
+	float: left;
+	height: 100%;
+	width: 15%;
+	
+
+	
+}
+.content {
+
+	height: 100%;
+	width: 80
+	float: left;
+	clear: right;
+	margin: 5px;
+	color:black;
+}
+
+
+
+
+ul#navmenu {
+	list-style-type: none;
+}
+
+ul#navmenu li {
+	width: 110px;
+	height: 30px;
+	text-align: center;
+	float: left;
+	margin-right: 4px;
+}
+.main {
+	width: 100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

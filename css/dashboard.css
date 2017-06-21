@@ -1,0 +1,75 @@
+
+.logo {
+
+    height: 100px;
+    width: 25%;
+    background: grey;
+    float: left;
+}
+
+.title {
+
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    background: grey;
+    float: left;
+
+}
+
+
+.title {
+
+    text-align: center;
+    height: 100px;
+    width: 50%;
+    background: grey;
+    float: left;
+
+}
+
+.activity {
+
+    height: 100px;
+    width: 25%;
+    background:grey;
+    float: left;
+    text-align: right;
+
+}
+
+.nav {
+    background:black;
+    height: 30px;
+    clear: right;
+    margin: 1px;
+    padding:2px;
+    border:1px solid white;
+
+}
+
+
+
+ul#navmenu {
+    list-style-type: none;
+}
+
+ul#navmenu li {
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 4px;
+}
+
+.lucy {
+	font-size: 3vw;
+	font-family: "Arial Script ITC" , Aharoni , Brush Script Std;
+}
+.header {
+	background: red;
+	height: 100px;
+	clear: both;
+	color: white;
+	margin: 5px;
+}
