@@ -20,14 +20,17 @@ $c -> setPassword($_POST['Password']);
     $res =$u -> login($c);
     $profile =$u -> getUserInfo($c);
 
+    $_SESSION['get_access'] = true;
+    $_SESSION['Id'] = $profile[0];
+    $_SESSION['Email'] = $profile[1];
+    $_SESSION['Password'] = $profile[2];
+
     if($res){
-        header('location:../index.php');
         $_SESSION['get_access'] = true;
         $_SESSION['Id'] = $profile[0];
-        $_SESSION['Email'] = $profile[3];
-        $_SESSION['Password'] = $profile[9];
-
-
+        $_SESSION['Email'] = $profile[1];
+        $_SESSION['Password'] = $profile[2];
+        header('location:../menu.php');
     }
     else{
         $message = "Invalid Email or Password";
@@ -68,6 +71,9 @@ $c -> setPassword($_POST['Password']);
                     <p><input type="submit" name="login"  class="login" value="Login"/> </p>  <br> <br><br>
 
                     <a href="account.php">Create new account</a> <br>
+					<br>
+					
+
 
 
 
